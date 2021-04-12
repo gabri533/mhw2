@@ -1,0 +1,180 @@
+.struct{
+	margin-top:5%;
+	background-color:  antiquewhite;
+	display:flex;
+	flex-wrap:wrap;
+	height:1150px;
+	width:1000px;
+	justify-content:space-around;
+	align-items: center;
+}
+body{
+	
+	text-align:center;
+	background-color: white;
+	margin:0px;
+}
+
+header div, input{
+	margin-top: -20px;
+	margin-right: 1050px;
+}
+
+header h1{
+	text-align: left;
+	padding-bottom: 15px;
+	font-size: 45px;
+	font-family: 'Noto Sans JP', sans-serif;
+	
+}
+
+.layout{
+	display: flex;
+	text-align:center;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:350px;
+	width:920px;
+
+}
+
+.layout div{
+	height:80%;
+	width:210px;
+}
+
+
+
+
+article{
+	
+	padding-left: 300px;
+}
+
+
+.struct div{
+	background-color:white;
+	height:450px;
+	width:300px;
+	
+}
+
+.struct div h2{
+	margin:0px;
+	margin-bottom:5px;
+}
+
+
+.content img{
+	
+	margin-top: 10px;
+}
+
+.content h1{
+	margin:0px;
+	text-align:center;
+	font-size:23px;
+	font-weight:normal;
+}
+
+.content{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	
+}
+
+.head{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+}
+
+
+.head .prefe{
+	height:30px;
+	width:30px;
+	align-items:center;
+	margin-bottom:0px;
+	
+}
+
+
+
+#preferiti{
+	text-align: left;
+	font-size: 30px;
+	font-family: 'Noto Sans JP', sans-serif;
+	margin-top: -3px;
+}
+
+div.head{
+	height:60px;
+	/*background-color:black;*/
+}
+
+
+.head img{
+	margin-top: 0px;
+	height: 20px;
+	width: 20px;
+}
+
+.head h1{
+	padding-left: 40px;
+	
+}
+
+.hidden{
+	display: none;
+}
+
+
+
+ #preferiti div{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+}
+
+#preferiti div .cont{
+	display:flex;
+	flex-direction:column;
+}
+
+p{
+	margin-top:0px; 
+}
+
+ .nascondi{
+	display:none;
+}
+
+
+
+
+
+	footer {
+		height: 100px;
+		background-color: black;
+		padding: 50px;
+	}
+	
+		footer div {
+			font-style: normal;
+			text-align: center;
+			font-size: 14px;
+			color: white;
+			font-family: 'Noto Sans JP', sans-serif;
+			text-transform: uppercase;
+			padding: 2px;
+		}
+	
+		footer #dati {
+			margin-top: 8px;
+			border-top: 2px solid white;
+			text-align: center;
+		}
